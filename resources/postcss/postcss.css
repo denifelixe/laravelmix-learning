@@ -1,0 +1,28 @@
+body {
+    z-index: 1000000;
+    margin: 10px;
+    color: red;
+}
+
+a {
+    /* direct nesting (& MUST be the first part of selector)*/
+    & span {
+        color: white;
+    }
+
+    /* @nest rule (for complex nesting) */
+    @nest span & {
+        color: blue;
+    }
+
+    /* media query automatic nesting */
+    @media (min-width: 30em) {
+        color: yellow;
+    }
+}
+
+@keyframes fade {
+    50% {
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,5 @@
+// alert('one');
+
+class Foobar {
+    
+}

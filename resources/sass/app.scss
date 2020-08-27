@@ -1,0 +1,17 @@
+$primary: red;
+
+#thing {
+    transition: all 1s;
+}
+
+@keyframes fade {
+    50% {
+        opacity: 0.5;
+    }
+}
+
+body {
+    z-index: 1000000;
+    color: $primary;
+    background: url('../images/ancient.png') repeat;
+}

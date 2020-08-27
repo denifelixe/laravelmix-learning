@@ -1,0 +1,22 @@
+#thing {
+  transition: all 1s;
+}
+
+@-webkit-keyframes fade {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes fade {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+body {
+  background: url(/images/ancient.png?1742c27b02ad71f0492fd13c07bc3b02) repeat;
+  color: red;
+  z-index: 1000000;
+}
+
